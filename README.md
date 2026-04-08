@@ -64,7 +64,7 @@ User (Telegram)
       │       using 5 distinct attack strategies      │
       │                                               │
       ├─► [3] evaluate_prompts()  ← serialised via    │
-      │       asyncio.Semaphore(1)    Semaphore        │
+      │       asyncio.Semaphore(1)    Semaphore       │
       │         ├─ Query target model (gemma2:2b)     │
       │         └─ Judge response (dolphin-mistral)   │
       │              └─ Returns JSON verdict:         │
